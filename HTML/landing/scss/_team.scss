@@ -1,0 +1,60 @@
+//
+// team.scss
+//
+
+/*********************************/
+/*         Team members          */
+/*===============================*/
+@each $name,
+$value in $colors {
+    .team {
+        &.team-#{$name} {
+            .name {
+                &:hover {
+                    color: $value !important;
+                }
+            }
+
+            .btn {
+                background-color: #{$value} !important;
+                border: 1px solid #{$value} !important;
+                color: $white !important;
+                box-shadow: 0 3px 5px 0 rgba($value, 0.1);
+                &:hover, &:focus, &:active, &.active, &.focus{
+                    background-color: darken($value, 10%) !important;
+                    border-color: darken($value, 10%) !important;
+                    color: $white !important;
+                }
+            }
+        }
+    }
+}
+
+.team {
+    img {
+        transition: all 0.5s ease;
+    }
+    
+    .team-icon {
+        position: absolute;
+        bottom: 50%;
+        transform: translateY(50%);
+        right: 0;
+        opacity: 0; 
+        left: 0;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    &:hover {
+        img {
+            box-shadow: $shadow;
+            opacity: 0.2;
+        }
+        .overlay-team {
+            opacity: 0.6;
+        }
+        .team-icon {
+            opacity: 1;
+        }
+    }   
+}

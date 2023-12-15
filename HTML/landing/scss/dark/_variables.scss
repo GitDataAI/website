@@ -1,0 +1,98 @@
+//
+// variables.scss
+//
+
+/*********************************/
+/*     Variables-DARK            */
+/*===============================*/
+
+// Color
+$white:                     #1c2836; //ffffff
+
+$dark:                      #ffffff; //3c4858
+$black:                     #161c2d;
+$muted:                     #9bacc4; //8492a6
+$light:                     #1f2d3d;
+
+// Gray
+$gray-100:                  #495057;
+$gray-200:                  #6c757d;
+$gray-300:                  #adb5bd;
+$gray-400:                  #ced4da;
+$gray-500:                  #dee2e6;
+$gray-600:                  #e9ecef;
+$gray-700:                  #f8f9fa;
+$gray-800:                  #2a3c51;
+
+// Overlay
+$overlay:                   rgba($white, 0.7);
+$gradient-overlay:         rgba($primary, 0.5);
+$bg-overlay-white:          rgba(0, 0, 0 , 0.4);
+
+$bg-gradient-primary:       linear-gradient(to left, darken($purple, 10%) 0%, darken($primary, 10%) 100%);
+$linear-gradient:           linear-gradient(to bottom, rgba($black, 0) 0%, rgba($black, 0.0) 50%, rgba($black, 0.3) 80%, rgba($black, 1) 100%);
+$linear-gradient-2:         linear-gradient(to bottom, rgba($black, 0) 0%, rgba($black, 0.3) 50%, rgba($black, 0.7) 75%, rgba($black, 1) 100%);
+$linear-gradient-3:         linear-gradient(to right, rgba($black, 1) 0%, rgba($black, 1) 25%, rgba($black, 1) 50%, rgba($black, 0.5) 75%, rgba($black, 0) 100%);
+$gradient-overlay:          linear-gradient(to bottom, rgba($black, 0) 0%, rgba($black, 0.5) 25%, rgba($black, 0.75) 50%, rgba($black, 1) 100%);
+$gradient-overlay-2:        linear-gradient(to bottom, rgba($black,0.5) 0%, rgba($black,0.6) 25%, rgba($black,0.7) 50%, rgba($black,0.8) 100%);
+$primary-gradient-overlay:  linear-gradient(to bottom, rgba($primary, 0) 0%, rgba($primary, 0.25) 25%, rgba($primary, 0.50) 50%, rgba($primary, 0.75) 75%, rgba($primary, 1) 100%);
+$gradient-white-overlay:    linear-gradient(to bottom, rgba($white, 0) 0%, rgba($white, 0) 25%, rgba($white, 0) 50%, rgba($white, 0.5) 100%);
+$card-overlay:              linear-gradient(to bottom, transparent 0%, transparent 25%, transparent 35%, rgba($black, 0.9) 100%);
+
+//Body Background
+$shadow:                    0 0 3px rgba($dark,.15);
+$shadow-lg:                 0 10px 25px rgba($dark, 0.15);
+$shadow-md:                 0 5px 13px rgba($dark, .2);
+$footer:                    lighten($white, 3%); //#1b2838;
+$bg-body:                   $white;
+
+// Base font
+$font-size-base:            16px;
+
+$font-family-base:          'Nunito', sans-serif;
+$font-family-secondary:     'Nunito', sans-serif;
+
+//Color Picker/Switcher
+$default:                   #2f55d4;
+$green:                     #6dc77a;
+$red:                       #ff5b69;
+$purple:                    #7952B3;
+$skyblue:                   #32c2ec;
+$skobleoff:                 #0f7173;
+$cyan:                      #00c9a7;
+$slateblue:                 #766df4;
+$yellow:                    #f7961c;
+
+
+$colors: (
+    "white": $white,
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "warning": $warning,
+    "info": $info,
+    "danger": $danger,
+    "dark": $dark,
+    "muted": $muted,
+    "light": $light,
+    "blue": $primary,
+    "footer": $footer,
+);
+
+$heading-font-sizes: (
+    "h1": 42px,
+    "h2": 36px,
+    "h3": 30px,
+    "h4": 24px,
+    "h5": 18px,
+    "h6": 16px,
+);
+
+$display-font-sizes: (
+    "display-1": 80px,
+    "display-2": 72px,
+    "display-3": 64px,
+    "display-4": 56px,
+    "display-5": 48px,
+    "display-6": 40px,
+)

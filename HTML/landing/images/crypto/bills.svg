@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style xmlns="http://www.w3.org/2000/svg" type="text/css">
+	.st0{fill:#0A486F;}
+	.st1{fill:#ffbf66;}
+	.st2{fill:#CCE9FF;}
+	.st3{fill:#2B94F3;}
+	.st4{clip-path:url(#SVGID_4_);fill:#2B94F3;}
+	.st5{fill:#1E0F00;}
+	.st6{fill:#E3E3E3;}
+	.st7{fill:#0E538D;}
+	.st8{fill:#5B5B5B;}
+	.st9{fill:#0075AA;}
+	.st10{opacity:0.1;fill:#FFFFFF;}
+	.st11{opacity:0.1;}
+	.st12{fill:none;}
+	.st13{fill:#231F20;}
+	.st14{font-family:'OpenSans-Bold';}
+	.st15{font-size:12.0344px;}
+	.st16{font-size:13.639px;}
+	.st17{opacity:0.1;fill:#231F20;}
+	.st18{fill:#D4D4D4;}
+	.st19{fill:#F7F7F7;}
+	.st20{fill:#0E538C;}
+	.st21{fill:none;stroke:#D3D3D3;stroke-miterlimit:10;}
+	.st22{fill:none;stroke:#D4D4D4;stroke-miterlimit:10;}
+	.st23{fill:#D3D3D3;}
+	.st24{fill:#FCF059;}
+	.st25{clip-path:url(#SVGID_10_);fill:#0A486F;}
+	.st26{fill:#FEBE55;}
+</style>
+<g xmlns="http://www.w3.org/2000/svg" id="BACKGROUND">
+</g>
+<g xmlns="http://www.w3.org/2000/svg" id="OBJECTS">
+	<g>
+		<path class="st0" d="M75.5,265.8c2-51.3,22.5-97.8,55.1-133l133,133H75.5z"/>
+		<path class="st1" d="M277.7,263.4L157.3,143c31.6-29.2,73.9-47.1,120.4-47.1c46.5,0,88.7,17.9,120.4,47.1L277.7,263.4z"/>
+		<path class="st2" d="M271.8,277.5v155.1c-84.2-3.3-151.8-70.9-155.1-155.1H271.8z"/>
+		<path class="st3" d="M283.6,274.1l101.7-101.7c24.1,26.1,38.9,61,38.9,99.3c0,78.9-62.4,143.2-140.6,146.3V274.1z"/>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<path id="SVGID_1_" d="M237.7,319.4l-144.5,48c-4.2,1.4-8.7-0.9-10.1-5.1l-27.5-82.7c-1.4-4.2,0.9-8.7,5.1-10.1l144.5-48      c4.2-1.4,8.7,0.9,10.1,5.1l27.5,82.7C244.1,313.4,241.9,318,237.7,319.4z"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_1_" style="overflow:visible;"/>
+			</clipPath>
+		</g>
+		<g>
+			<defs>
+				<path id="SVGID_3_" d="M237.7,319.4l-144.5,48c-4.2,1.4-8.7-0.9-10.1-5.1l-27.5-82.7c-1.4-4.2,0.9-8.7,5.1-10.1l144.5-48      c4.2-1.4,8.7,0.9,10.1,5.1l27.5,82.7C244.1,313.4,241.9,318,237.7,319.4z"/>
+			</defs>
+			<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_3_" style="overflow:visible;fill:#2B94F3;"/>
+			<clipPath id="SVGID_4_">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_3_" style="overflow:visible;"/>
+			</clipPath>
+			<circle class="st4" cx="205.2" cy="275.8" r="84.4"/>
+		</g>
+		<g>
+			<defs>
+				<path id="SVGID_5_" d="M237.7,319.4l-144.5,48c-4.2,1.4-8.7-0.9-10.1-5.1l-27.5-82.7c-1.4-4.2,0.9-8.7,5.1-10.1l144.5-48      c4.2-1.4,8.7,0.9,10.1,5.1l27.5,82.7C244.1,313.4,241.9,318,237.7,319.4z"/>
+			</defs>
+			<clipPath id="SVGID_6_">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_5_" style="overflow:visible;"/>
+			</clipPath>
+		</g>
+	</g>
+	
+		<rect x="55.2" y="256" transform="matrix(0.949 -0.3153 0.3153 0.949 -76.4587 57.4651)" class="st5" width="168.3" height="18.1"/>
+	
+		<rect x="71.8" y="277.6" transform="matrix(0.949 -0.3153 0.3153 0.949 -82.4893 60.6134)" class="st6" width="148.6" height="15.4"/>
+	
+		<rect x="80.1" y="311.5" transform="matrix(0.949 -0.3153 0.3153 0.949 -93.0835 55.2107)" class="st7" width="87.9" height="7.6"/>
+	<rect x="79.1" y="293.6" transform="matrix(0.949 -0.3153 0.3153 0.949 -88.1937 49.687)" class="st8" width="60.7" height="7.6"/>
+	
+		<rect x="84.8" y="327.7" transform="matrix(0.949 -0.3153 0.3153 0.949 -98.6345 53.2066)" class="st9" width="60.7" height="7.6"/>
+	<polygon class="st10" points="200.1,331.8 157.6,346 163.6,235.2 206.1,221.1  "/>
+	<g class="st11">
+		<g>
+			<rect x="227.7" y="313.3" class="st12" width="112.3" height="13.8"/>
+			<text transform="matrix(1 0 0 1 227.6646 321.8446)" class="st13 st14 st15">total</text>
+		</g>
+		<g>
+			<rect x="200" y="112.1" class="st12" width="112.3" height="27.7"/>
+			<text transform="matrix(1 0 0 1 233.1646 121.8218)" class="st13 st14 st16">receipt</text>
+		</g>
+	</g>
+	<g class="st11">
+		<g>
+			<rect x="208.1" y="309" class="st12" width="112.3" height="13.8"/>
+			<text transform="matrix(1 0 0 1 208.1005 317.5814)" class="st13 st14 st15">total</text>
+		</g>
+		<g>
+			<rect x="194.4" y="107.9" class="st12" width="112.3" height="27.7"/>
+			<text transform="matrix(1 0 0 1 227.6005 117.5586)" class="st13 st14 st16">receipt</text>
+		</g>
+	</g>
+	<polygon class="st17" points="199.9,223 199.9,362.1 199.9,362.8 199.9,363 349.7,363 349.7,362.8 349.7,362.1 349.7,162.1    326.8,162.1 326.8,81.2 326.8,80.5 177,80.5 177,81.2 177,162.1 177,210.1 177,223 186.3,223  "/>
+	<path class="st6" d="M184.3,216v-61h18.5v51.7c0,5.1-4.2,9.2-9.2,9.2H184.3z"/>
+	<rect x="184.3" y="74.2" class="st6" width="149.8" height="128.9"/>
+	<g>
+		<rect x="256.8" y="161.5" class="st18" width="25.1" height="5.3"/>
+		<rect x="305.5" y="133.4" class="st18" width="18.5" height="5.3"/>
+		<rect x="194.5" y="133.4" class="st18" width="42.8" height="5.3"/>
+		<rect x="298.3" y="147.4" class="st18" width="25.7" height="5.3"/>
+		<rect x="194.5" y="147.4" class="st18" width="64.7" height="5.3"/>
+		<rect x="298.3" y="161.5" class="st18" width="25.7" height="5.3"/>
+		<rect x="194.5" y="161.5" class="st18" width="56.7" height="5.3"/>
+		<rect x="298.3" y="175.5" class="st18" width="25.7" height="5.3"/>
+		<rect x="194.5" y="175.5" class="st18" width="42.8" height="5.3"/>
+		<rect x="242.4" y="133.4" class="st18" width="42.8" height="5.3"/>
+		<rect x="242.4" y="175.5" class="st18" width="42.8" height="5.3"/>
+		<rect x="305.5" y="189.6" class="st18" width="18.5" height="5.3"/>
+		<rect x="194.5" y="189.6" class="st18" width="64.7" height="5.3"/>
+	</g>
+	<rect x="207.2" y="155.1" class="st19" width="149.8" height="200.8"/>
+	<rect x="267.2" y="87.4" class="st18" width="56.7" height="5.3"/>
+	<rect x="253.8" y="331.1" class="st18" width="56.7" height="5.3"/>
+	<rect x="321.2" y="168.6" class="st18" width="25.7" height="5.3"/>
+	<rect x="217.4" y="168.6" class="st18" width="56.7" height="5.3"/>
+	<rect x="279.7" y="168.6" class="st18" width="25.1" height="5.3"/>
+	<rect x="279.7" y="210.7" class="st18" width="25.1" height="5.3"/>
+	<rect x="328.4" y="182.6" class="st18" width="18.5" height="5.3"/>
+	<rect x="217.4" y="182.6" class="st18" width="42.8" height="5.3"/>
+	<rect x="321.2" y="196.6" class="st18" width="25.7" height="5.3"/>
+	<rect x="217.4" y="196.6" class="st18" width="64.7" height="5.3"/>
+	<rect x="321.2" y="210.7" class="st18" width="25.7" height="5.3"/>
+	<rect x="217.4" y="210.7" class="st18" width="56.7" height="5.3"/>
+	<rect x="321.2" y="224.7" class="st18" width="25.7" height="5.3"/>
+	<rect x="217.4" y="224.7" class="st18" width="42.8" height="5.3"/>
+	<rect x="265.3" y="182.6" class="st18" width="42.8" height="5.3"/>
+	<rect x="265.3" y="224.7" class="st18" width="42.8" height="5.3"/>
+	<rect x="328.4" y="238.8" class="st18" width="18.5" height="5.3"/>
+	<rect x="321.2" y="305.7" class="st18" width="25.7" height="5.3"/>
+	<rect x="217.4" y="238.8" class="st18" width="64.7" height="5.3"/>
+	<rect x="279.7" y="251.4" class="st18" width="25.1" height="5.3"/>
+	<rect x="321.2" y="251.4" class="st18" width="25.7" height="5.3"/>
+	<rect x="217.4" y="251.4" class="st18" width="56.7" height="5.3"/>
+	<rect x="321.2" y="265.5" class="st18" width="25.7" height="5.3"/>
+	<rect x="217.4" y="265.5" class="st18" width="42.8" height="5.3"/>
+	<rect x="265.3" y="265.5" class="st18" width="42.8" height="5.3"/>
+	<rect x="328.4" y="279.5" class="st18" width="18.5" height="5.3"/>
+	<rect x="217.4" y="279.5" class="st18" width="64.7" height="5.3"/>
+	<g>
+		<rect x="217.4" y="303" class="st12" width="112.3" height="13.8"/>
+		<text transform="matrix(1 0 0 1 217.4014 311.5814)" class="st20 st14 st15">total</text>
+	</g>
+	<g>
+		<g>
+			<rect x="203.7" y="101.9" class="st12" width="112.3" height="27.7"/>
+			<text transform="matrix(1 0 0 1 248.1196 111.5586)" class="st21 st14 st16">bill</text>
+		</g>
+		<line class="st21" x1="194.9" y1="119.9" x2="324.3" y2="119.9"/>
+	</g>
+	<line class="st22" x1="217.4" y1="296.3" x2="346.8" y2="296.3"/>
+	<line class="st22" x1="217.4" y1="320.5" x2="346.8" y2="320.5"/>
+	<polygon class="st23" points="207.2,155.1 207.2,216 184.3,216  "/>
+	<g class="st11">
+		<path class="st13" d="M378.5,131.5c6.3-10.7,2.6-24.5-8.1-30.7c-10.7-6.3-24.5-2.6-30.7,8.1c-6.3,10.7-2.6,24.5,8.1,30.7    C358.5,145.8,372.3,142.2,378.5,131.5z"/>
+		
+			<ellipse transform="matrix(0.9951 -9.869489e-02 9.869489e-02 0.9951 -16.9435 38.7438)" class="st13" cx="383.1" cy="190.6" rx="22.5" ry="22.5"/>
+		
+			<ellipse transform="matrix(0.9546 -0.298 0.298 0.9546 -25.1154 128.9339)" class="st13" cx="410.3" cy="146.8" rx="22.5" ry="22.5"/>
+	</g>
+	
+		<ellipse transform="matrix(0.6681 -0.7441 0.7441 0.6681 34.9526 309.782)" class="st24" cx="364.7" cy="115.7" rx="22.5" ry="22.5"/>
+	
+		<ellipse transform="matrix(0.8677 -0.4971 0.4971 0.8677 -9.273 196.5862)" class="st1" cx="364.7" cy="115.7" rx="18.2" ry="18.2"/>
+	<g>
+		<path class="st24" d="M356.1,127.5l1.9-3.2c-1.8-1.1-3.4-2.8-4.1-4.3l2-1.7c0.7,1.4,2,3,3.8,4.1c2.3,1.3,4.6,0.9,5.6-0.9    c1-1.8,0.4-3.6-1.4-5.9c-2.5-3.2-3.7-5.8-2-8.6c1.5-2.7,4.6-3.6,7.8-2.3l1.9-3.2l2,1.2l-1.8,3.1c1.9,1.2,2.9,2.5,3.5,3.5l-2,1.6    c-0.4-0.8-1.3-2.2-3.4-3.4c-2.5-1.4-4.2-0.5-5,0.8c-1,1.7-0.3,3.2,1.8,6c2.5,3.3,3.2,5.9,1.5,8.7c-1.5,2.5-4.6,3.9-8.2,2.5    l-1.9,3.3L356.1,127.5z"/>
+	</g>
+	<g>
+		
+			<ellipse transform="matrix(0.965 -0.2621 0.2621 0.965 -35.2128 108.3888)" class="st24" cx="388.7" cy="186.2" rx="22.5" ry="22.5"/>
+		
+			<ellipse transform="matrix(0.6097 -0.7926 0.7926 0.6097 4.1294 380.7682)" class="st1" cx="388.7" cy="186.2" rx="18.2" ry="18.2"/>
+		<g>
+			<path class="st24" d="M392.6,200.3l-1.4-3.5c-2,0.7-4.3,0.9-5.9,0.5l-0.1-2.6c1.6,0.3,3.6,0.3,5.5-0.5c2.4-1,3.6-3,2.8-5     c-0.7-1.9-2.5-2.5-5.5-2.6c-4.1,0-6.8-0.8-8-3.8c-1.1-2.9,0.1-5.8,3-7.6l-1.4-3.5l2.1-0.8l1.3,3.3c2.1-0.7,3.7-0.7,5-0.5l0,2.6     c-0.9-0.1-2.6-0.3-4.8,0.5c-2.7,1-3,3-2.5,4.4c0.7,1.8,2.3,2.2,5.8,2.3c4.1,0.1,6.6,1.2,7.8,4.2c1.1,2.7,0.2,6-3.2,8l1.4,3.6     L392.6,200.3z"/>
+		</g>
+	</g>
+	<g>
+		<path class="st24" d="M436.8,134.3c4.5,11.6-1.2,24.6-12.8,29.1c-11.6,4.5-24.6-1.2-29.1-12.8c-4.5-11.6,1.2-24.6,12.8-29.1    S432.3,122.7,436.8,134.3z"/>
+		<path class="st1" d="M432.9,135.8c3.7,9.4-1,20-10.4,23.6c-9.4,3.7-20-1-23.6-10.4c-3.7-9.4,1-20,10.4-23.6    C418.7,121.7,429.2,126.4,432.9,135.8z"/>
+		<g>
+			<path class="st24" d="M419.8,156.5l-1.4-3.5c-2,0.7-4.3,0.9-5.9,0.5l-0.1-2.6c1.6,0.3,3.6,0.3,5.5-0.4c2.4-1,3.6-3,2.8-5     c-0.7-1.9-2.5-2.5-5.5-2.6c-4.1,0-6.8-0.8-8-3.8c-1.1-2.9,0.1-5.8,3-7.6l-1.4-3.5l2.1-0.8l1.3,3.3c2.1-0.7,3.7-0.7,5-0.5l0,2.6     c-0.9-0.1-2.6-0.3-4.8,0.5c-2.7,1-3,3-2.5,4.4c0.7,1.8,2.3,2.2,5.8,2.3c4.1,0.1,6.6,1.2,7.8,4.2c1.1,2.7,0.2,6-3.2,8l1.4,3.6     L419.8,156.5z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<path id="SVGID_7_" d="M209.3,435.4L59.7,406.8c-4.3-0.8-7.2-5-6.4-9.4l16.3-85.6c0.8-4.3,5-7.2,9.4-6.4L228.6,334      c4.3,0.8,7.2,5,6.4,9.4L218.6,429C217.8,433.3,213.6,436.2,209.3,435.4z"/>
+			</defs>
+			<clipPath id="SVGID_8_">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_7_" style="overflow:visible;"/>
+			</clipPath>
+		</g>
+		<g>
+			<defs>
+				<path id="SVGID_9_" d="M209.3,435.4L59.7,406.8c-4.3-0.8-7.2-5-6.4-9.4l16.3-85.6c0.8-4.3,5-7.2,9.4-6.4L228.6,334      c4.3,0.8,7.2,5,6.4,9.4L218.6,429C217.8,433.3,213.6,436.2,209.3,435.4z"/>
+			</defs>
+			<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_9_" style="overflow:visible;fill:#0A486F;"/>
+			<clipPath id="SVGID_10_">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_9_" style="overflow:visible;"/>
+			</clipPath>
+			
+				<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -210.5296 254.695)" class="st25" cx="202.2" cy="381.5" rx="84.4" ry="84.4"/>
+		</g>
+		<g>
+			<defs>
+				<path id="SVGID_11_" d="M209.3,435.4L59.7,406.8c-4.3-0.8-7.2-5-6.4-9.4l16.3-85.6c0.8-4.3,5-7.2,9.4-6.4L228.6,334      c4.3,0.8,7.2,5,6.4,9.4L218.6,429C217.8,433.3,213.6,436.2,209.3,435.4z"/>
+			</defs>
+			<clipPath id="SVGID_12_">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_11_" style="overflow:visible;"/>
+			</clipPath>
+		</g>
+	</g>
+	<polygon class="st10" points="170.3,427.9 126.4,419.6 185.6,325.8 229.5,334.2  "/>
+	
+		<rect x="69.7" y="361.7" transform="matrix(0.9823 0.1872 -0.1872 0.9823 69.993 -9.6901)" class="st6" width="33.3" height="8.2"/>
+	
+		<rect x="163.8" y="393.4" transform="matrix(0.9823 0.1872 -0.1872 0.9823 77.4417 -25.29)" class="st6" width="17.6" height="8.2"/>
+	
+		<rect x="140.9" y="389" transform="matrix(0.9823 0.1872 -0.1872 0.9823 76.2189 -21.0695)" class="st6" width="17.6" height="8.2"/>
+	
+		<rect x="106.6" y="368.8" transform="matrix(0.9823 0.1872 -0.1872 0.9823 71.9619 -16.4759)" class="st6" width="33.3" height="8.2"/>
+	
+		<rect x="182.8" y="383.3" transform="matrix(0.9823 0.1872 -0.1872 0.9823 76.0276 -30.4878)" class="st6" width="33.3" height="8.2"/>
+	
+		<rect x="143.5" y="375.8" transform="matrix(0.9823 0.1872 -0.1872 0.9823 73.9309 -23.2616)" class="st6" width="33.3" height="8.2"/>
+	
+		<rect x="149.1" y="339.5" transform="matrix(0.9823 0.1872 -0.1872 0.9823 67.5457 -28.7551)" class="st3" width="73.9" height="7.6"/>
+	
+		<rect x="63.9" y="393.6" transform="matrix(0.9823 0.1872 -0.1872 0.9823 76.0399 -10.6146)" class="st3" width="60.7" height="7.6"/>
+	<path class="st26" d="M94.6,357.5l-15.9-3c-3.8-0.7-6.4-4.5-5.6-8.3l1.9-9.7c0.7-3.8,4.5-6.4,8.3-5.6l15.9,3   c3.8,0.7,6.4,4.5,5.6,8.3l-1.9,9.7C102.2,355.7,98.5,358.2,94.6,357.5z"/>
+	
+		<ellipse transform="matrix(0.827 -0.5623 0.5623 0.827 -201.0351 186.2477)" class="st3" cx="202.1" cy="419.7" rx="7.9" ry="7.9"/>
+	<path class="st26" d="M200.4,419.4c-0.8,4.3-4.9,7.1-9.2,6.3c-4.3-0.8-7.1-4.9-6.3-9.2c0.8-4.3,4.9-7.1,9.2-6.3   C198.4,411,201.2,415.1,200.4,419.4z"/>
+</g>
+<g xmlns="http://www.w3.org/2000/svg" id="DESIGNED_BY_FREEPIK">
+</g>
+</svg>
