@@ -1,0 +1,31 @@
+version: 2.1
+
+jobs:
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/node
+    steps:
+      - checkout
+      - setup_remote_docker:
+          docker_layer_caching: false
+          version: 19.03.13
+      - run:
+          name: Build and push docker image
+          command: |
+            DOCKER_STR="${DOCKER_REGISTRY}/${DOCKER_NAMESPACE}/${DOCKER_REPO}"
+            TAG="${DOCKER_STR}:${CIRCLE_BUILD_NUM}"
+            docker build -t ${TAG} .
+            docker tag ${TAG} ${DOCKER_STR}:latest
+            docker login -u ${DOCKER_ALI_USERNAME} -p ${DOCKER_ALI_PWD} ${DOCKER_REGISTRY}
+            docker push ${TAG}
+            docker push ${DOCKER_STR}:latest
+
+workflows:
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - main
