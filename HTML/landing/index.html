@@ -1,472 +1,471 @@
-
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <title>GitData AI Community | JiaoziFS </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Working Group for Data Centric Applications and Teams" />
-        <meta name="keywords" content="Git, Data, Data Space, Data Hub, Data Collaboration, DataOps, MLOps, AIOps" />
-        <meta name="author" content="gitdata" />
-        <meta name="email" content="info@gitdata.ai" />
-        <meta name="website" content="https://gitdata.ai" />
-        <meta name="Version" content="v1.0.0" />
-        <!-- favicon -->
-        <link rel="shortcut icon" href="images/gitdata-logo.ico">
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <!-- tobii css -->
-        <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
-        <!-- Icons -->
-        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
-        <!-- Main Css -->
-        <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
-        <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+<head>
+    <meta charset="utf-8" />
+    <title>GitData AI Community | JiaoziFS </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Working Group for Data Centric Applications and Teams" />
+    <meta name="keywords" content="Git, Data, Data Space, Data Hub, Data Collaboration, DataOps, MLOps, AIOps" />
+    <meta name="author" content="gitdata" />
+    <meta name="email" content="info@gitdata.ai" />
+    <meta name="website" content="https://gitdata.ai" />
+    <meta name="Version" content="v1.0.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/gitdata-logo.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- tobii css -->
+    <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <!-- Main Css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
 
-    </head>
+</head>
 
-    <body>
-        <!-- Loader -->
-        <!-- <div id="preloader">
-            <div id="status">
-                <div class="spinner">
-                    <div class="double-bounce1"></div>
-                    <div class="double-bounce2"></div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Loader -->
+<body>
+<!-- Loader -->
+<!-- <div id="preloader">
+    <div id="status">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+</div> -->
+<!-- Loader -->
 
-        <!-- Navbar STart -->
-        <header id="topnav" class="defaultscroll sticky">
-            <div class="container">
-                <!-- Logo container-->
-                <a class="logo" href="index.html">
-                    <img src="images/gitdata-words.png" height="48" class="logo-light-mode" alt="">
-                    <img src="images/gitdata-words.png" height="48" class="logo-dark-mode" alt="">
+<!-- Navbar STart -->
+<header id="topnav" class="defaultscroll sticky">
+    <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="index.html">
+            <img src="images/gitdata-words.png" height="48" class="logo-light-mode" alt="">
+            <img src="images/gitdata-words.png" height="48" class="logo-dark-mode" alt="">
+        </a>
+
+        <!-- Logo End -->
+
+        <!-- End Logo container-->
+        <div class="menu-extras">
+            <div class="menu-item">
+                <!-- Mobile menu toggle-->
+                <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </a>
-                
-                <!-- Logo End -->
-
-                <!-- End Logo container-->
-                <div class="menu-extras">
-                    <div class="menu-item">
-                        <!-- Mobile menu toggle-->
-                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
-                            <div class="lines">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </a>
-                        <!-- End mobile menu toggle-->
-                    </div>
-                </div>
-
-                <!--Login button Start-->
-                <ul class="buy-button list-inline mb-0">
-                    <li class="list-inline-item mb-0">
-                        <a href="https://github.com/GitDataAI" target="_blank">
-                            <div class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="github" class="fea icon-sm"></i></div>
-                        </a>
-                    </li>
-
-                    <li class="list-inline-item ps-1 mb-0">
-                        <a href="https://blog.gitdata.ai" target="_blank">
-                            <div class="btn btn-icon btn-pills btn-primary"><i data-feather="book-open" class="fea icon-sm"></i></div>
-                        </a>
-                    </li>
-                </ul>
-                <!--Login button End-->
-        
-                <div id="navigation">
-                    <!-- Navigation Menu-->   
-                    <ul class="navigation-menu">
-                        <li><a href="index.html" class="sub-menu-item">Home</a></li>
-                        <li><a href="#usecases" class="sub-menu-item">JiaoziFS</a></li>
-                        <li><a href="#why" class="sub-menu-item">Why JiaoziFS</a></li>
-                        <li><a href="#community" class="sub-menu-item">Community</a></li>
-                        <li><a href="https://blog.gitdata.ai" target="_blank" class="sub-menu-item">Blog</a></li>
-                    </ul><!--end navigation menu-->
-                </div><!--end navigation-->
-            </div><!--end container-->
-        </header><!--end header-->
-        <!-- Navbar End -->
-        
-        <!-- Head Start -->
-        <section class="bg-half-170 border-bottom d-table w-100" id="home">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-7">
-                        <div class="title-heading mt-4">
-                            <div class="alert alert-white alert-pills shadow" role="alert">
-                                <span class="badge rounded-pill bg-danger me-1">v0.1</span>
-                                <span class="content"> JiaoziFS is <span class="text-primary">Data Centric</span> in Action.</span>
-                            </div>
-                            <h3 class="mb-3">GitData AI Working Group <br> For <span class="text-primary" data-period="2000" >Data Centric<span class="wrap"></span> </span> Applications & Teams</h3>
-                            <p class="para-desc text-muted">JiaoziFS is an industry-leading Data-Centric Version Control File System, helps ensure Responsible AI Engineering by improving Data Versioning, Provenance, and Reproducibility. </p>
-                            <div class="mt-4">
-                                <a href="https://github.com/GitDataAI" target="_blank" class="btn btn-primary rounded"><i class="uil uil-github"></i> GetStarted</a>
-                                <a href="https://docs.google.com/document/d/1KLUW2-JK1jMrZUkNja_CSw-1rvb544ZkbklQALIbBLY/edit?usp=sharing" target="_blank" class="btn btn-outline-primary rounded"><i class="uil uil-book"></i> JiaoziFS Spec</a>
-                                <p class="mt-3 mb-0 text-muted">* The right image and video are copyrighted by https://landing.ai/data-centric-ai/.</p>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-lg-6 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                        <div class="position-relative">
-                            <img src="images/img_What_Is_Data-Centric_AI.png" class="rounded img-fluid mx-auto d-block" alt="">
-                            <div class="play-icon">
-                                <a href="#!" data-type="youtube" data-id="TU6u_T-s68Y" class="play-btn lightbox">
-                                    <i class="mdi mdi-play text-primary rounded-circle bg-white shadow"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container--> 
-        </section><!--end section-->
-        <!-- Head End -->
-
-        <section class="section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <div class="section-title text-center mb-4 pb-2">
-                            <h4 class="title mb-4">A Universe of Uses of JiaoziFS</h4>
-                            <p class="text-muted para-desc mb-0 mx-auto"><span class="text-primary fw-bold">JiaoziFS</span>'s versatility shines across different industries – making it the multi-purpose tool for the data centric applications and teams.</p>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-
-                <div class="row justify-content-center">
-                    <div class="col-xl-10">
-                        <div class="row">
-                            <div class="col-md-6 mt-4 pt-2">
-                                <div class="d-flex features feature-primary feature-clean p-4 bg-white shadow rounded">
-                                    <div class="icons text-primary d-block text-center rounded">
-                                        <i class="uil uil-cloud-database-tree d-block rounded h3 mb-0"></i>
-                                    </div>
-                                    <div class="flex-1 content ms-4">
-                                        <h5 class="mb-1"><a href="https://www.eckerson.com/articles/dataops-in-data-engineering" target="_blank" class="text-dark">Data Engineering & Data Pipelines</a></h5>
-                                        <p class="text-muted mb-0">DataOps,AIOps,MLOps.</p>
-                                    </div>
-                                </div>
-                            </div><!--end col-->
-
-                            <div class="col-md-6 mt-4 pt-2">
-                                <div class="d-flex features feature-primary feature-clean p-4 bg-white shadow rounded">
-                                    <div class="icons text-primary d-block text-center rounded">
-                                        <i class="uil uil-files-landscapes-alt d-block rounded h3 mb-0"></i>
-                                    </div>
-                                    <div class="flex-1 content ms-4">
-                                        <h5 class="mb-1"><a href="https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper18.pdf" target="_blank" class="text-dark">DataHub & Data Collaboration</a></h5>
-                                        <p class="text-muted mb-0">Collaborative Data Science & Dataset Version Management at Scale.</p>
-                                    </div>
-                                </div>
-                            </div><!--end col-->
-
-                            <div class="col-md-6 mt-4 pt-2">
-                                <div class="d-flex features feature-primary feature-clean p-4 bg-white shadow rounded">
-                                    <div class="icons text-primary d-block text-center rounded">
-                                        <i class="uil uil-database d-block rounded h3 mb-0"></i>
-                                    </div>
-                                    <div class="flex-1 content ms-4">
-                                        <h5 class="mb-1"><a href="https://www.isst.fraunhofer.de/en/business-units/data-business/projects/FAIRDataSpaces.html" class="text-dark">FAIR DataSpace</a></h5>
-                                        <p class="text-muted mb-0">FAIR data are data which meet principles of findability, accessibility, interoperability, and reusability (FAIR).</p>
-                                    </div>
-                                </div>
-                            </div><!--end col-->
-
-                            <div class="col-md-6 mt-4 pt-2">
-                                <div class="d-flex features feature-primary feature-clean p-4 bg-white shadow rounded">
-                                    <div class="icons text-primary d-block text-center rounded">
-                                        <i class="uil uil-money-bill-stack d-block rounded h3 mb-0"></i>
-                                    </div>
-                                    <div class="flex-1 content ms-4">
-                                        <h5 class="mb-1"><a href="https://www.linkedin.com/pulse/nfts-business-enterprise-nft-kamlesh-nagware/" target="_blank" class="text-dark">Data NFT and Data Containerization</a></h5>
-                                        <p class="text-muted mb-0">NFTs allow data to be containerized into shareable, tradeable, and trackable assets.</p>
-                                    </div>
-                                </div>
-                            </div><!--end col-->
-
-                            <div class="col-12 mt-4 pt-2 text-center">
-                                <a href="https://github.com/jiaozifs/jiaozifs" target="_blank" class="text-primary h6">Explore How JiaoziFS works <i data-feather="arrow-right" class="fea icon-sm"></i></a>
-                            </div><!--end col-->
-                        </div><!--end row-->
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-
-            <div class="container mt-100 mt-60">
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <div class="section-title text-center mb-4 pb-2">
-                            <h4 class="title mt-3 mb-4">Why JiaoziFS?</h4>
-                            <p class="text-muted para-desc mx-auto mb-0">In production systems with machine learning components, <span class="text-primary fw-bold">updates and experiments are frequent.</span> New updates to models may be released every day or every few minutes, and different users may see the results of different models as part of A/B experiments or canary releases.</p>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                        <div class="card border-0 text-center features feature-primary feature-clean rounded p-4">
-                            <div class="icons text-center mx-auto">
-                                <i class="uil uil-layers-alt d-block rounded h3 mb-0"></i>
-                            </div>
-
-                            <div class="card-body p-0 mt-4">
-                                <h5>Version Everthing</h5>
-                                <p class="text-muted mb-0">Data scientists are often criticized for being less disciplined with versioning their experiments(versioning of data, pipeline code, and models), especially when using computational notebooks.</p>
-                                <div class="mt-2">
-                                    <a href="https://ckaestne.medium.com/versioning-provenance-and-reproducibility-in-production-machine-learning-355c48665005)" target="" class="read-more">Read More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                        <div class="card border-0 text-center features feature-primary feature-clean rounded p-4">
-                            <div class="icons text-center mx-auto">
-                                <i class="uil uil-edit d-block rounded h3 mb-0"></i>
-                            </div>
-
-                            <div class="card-body p-0 mt-4">
-                                <h5>Track Data Provenance</h5>
-                                <p class="text-muted mb-0">This applies to all processing steps in a machine learning pipeline, including data collection/acquisition, data merging, data cleaning, feature extraction, learning, or deployment. .</p>
-                                <div class="mt-2">
-                                    <a href="https://ckaestne.medium.com/versioning-provenance-and-reproducibility-in-production-machine-learning-355c48665005" target="_blank" class="read-more">Read More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                        <div class="card border-0 text-center features feature-primary feature-clean rounded p-4">
-                            <div class="icons text-center mx-auto">
-                                <i class="uil uil-repeat d-block rounded h3 mb-0"></i>
-                            </div>
-
-                            <div class="card-body p-0 mt-4">
-                                <h5>Reproducibility</h5>
-                                <p class="text-muted mb-0">A final question that is often relevant for debugging, audits, and also science more broadly is to what degree data, models, and decisions can be reproduced.</p>
-                                <div class="mt-2">
-                                    <a href="https://ckaestne.medium.com/versioning-provenance-and-reproducibility-in-production-machine-learning-355c48665005" target="_blank" class="read-more">Read More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-
-            <div class="container mt-100 mt-60">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <div class="section-title mb-4 pb-2">
-                            <h4 class="title mb-4">Community <span class="text-primary">Members</span></h4>
-                            <p class="text-muted para-desc mx-auto mb-0">Bringing a community together is not only <span class="text-primary fw-bold">hugely rewarding</span>,but has tangible benefits for all involved.</p>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-
-                <div class="row">
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset190.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset189.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset186.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset187.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-                </div><!--end row-->
-                <div class="row">
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset190.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset189.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset186.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset187.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-                </div><!--end row-->
-                <div class="row">
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset190.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset189.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset186.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-
-                    <div class="col-md-3 col-6 mt-4 pt-2">
-                        <div class="counter-box text-center">
-                            <img src="images/illustrator/Asset187.svg" class="avatar avatar-small" alt="">
-                        </div><!--end counter box-->
-                    </div>
-                </div><!--end row-->
-            </div><!--end container-->
-        </section><!--end section-->
-        <!-- End Members -->
-
-        <!-- Footer Start -->
-        <footer class="footer">
-            <div class="footer-py-30 footer-bar">
-                <div class="container text-center">
-                    <div class="row align-items-center">
-                        <div class="col-sm-6">
-                            <div class="text-sm-start">
-                                <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> GitData. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://gitdata.ai" target="_blank" class="text-reset">GitData</a>.</p>
-                            </div>
-                        </div><!--end col-->
-                    </div><!--end row-->
-                </div><!--end container-->
-            </div>
-        </footer><!--end footer-->
-        <!-- Footer End -->
-
-        <!-- Offcanvas Start -->
-        <div class="offcanvas offcanvas-end bg-white shadow" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header p-4 border-bottom">
-                <h5 id="offcanvasRightLabel" class="mb-0">
-                    <img src="images/logo-dark.png" height="24" class="light-version" alt="">
-                    <img src="images/logo-light.png" height="24" class="dark-version" alt="">
-                </h5>
-                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
-            </div>
-            <div class="offcanvas-body p-4">
-                <div class="row">
-                    <div class="col-12">
-                        <img src="images/contact.svg" class="img-fluid d-block mx-auto" style="max-width: 256px;" alt="">
-                        <div class="card border-0 mt-5" style="z-index: 1">
-                            <div class="card-body p-0">
-                                <form method="post" name="myForm" onsubmit="return validateForm()">
-                                    <p id="error-msg" class="mb-0"></p>
-                                    <div id="simple-msg"></div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="mb-3">
-                                                <label class="form-label">Your Name <span class="text-danger">*</span></label>
-                                                <div class="form-icon position-relative">
-                                                    <i data-feather="user" class="fea icon-sm icons"></i>
-                                                    <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Name :">
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="col-md-6">
-                                            <div class="mb-3">
-                                                <label class="form-label">Your Email <span class="text-danger">*</span></label>
-                                                <div class="form-icon position-relative">
-                                                    <i data-feather="mail" class="fea icon-sm icons"></i>
-                                                    <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Email :">
-                                                </div>
-                                            </div> 
-                                        </div><!--end col-->
-    
-                                        <div class="col-12">
-                                            <div class="mb-3">
-                                                <label class="form-label">Subject</label>
-                                                <div class="form-icon position-relative">
-                                                    <i data-feather="book" class="fea icon-sm icons"></i>
-                                                    <input name="subject" id="subject" class="form-control ps-5" placeholder="subject :">
-                                                </div>
-                                            </div>
-                                        </div><!--end col-->
-    
-                                        <div class="col-12">
-                                            <div class="mb-3">
-                                                <label class="form-label">Comments <span class="text-danger">*</span></label>
-                                                <div class="form-icon position-relative">
-                                                    <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
-                                                    <textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder="Message :"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="d-grid">
-                                                <button type="submit" id="submit" name="send" class="btn btn-primary">Send Message</button>
-                                            </div>
-                                        </div><!--end col-->
-                                    </div><!--end row-->
-                                </form>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div>
-
-            <div class="offcanvas-footer p-4 border-top text-center">
-                <ul class="list-unstyled social-icon social mb-0">
-                    <li class="list-inline-item mb-0"><a href="https://1.envato.market/landrick" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://twitter.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://shreethemes.in" target="_blank" class="rounded"><i class="uil uil-globe align-middle" title="website"></i></a></li>
-                </ul><!--end icon-->
+                <!-- End mobile menu toggle-->
             </div>
         </div>
-        <!-- Offcanvas End -->
 
-        <!-- Back to top -->
-        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
-        <!-- Back to top -->
+        <!--Login button Start-->
+        <ul class="buy-button list-inline mb-0">
+            <li class="list-inline-item mb-0">
+                <a href="https://github.com/GitDataAI" target="_blank">
+                    <div class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="github" class="fea icon-sm"></i></div>
+                </a>
+            </li>
 
-        <!-- javascript -->
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <!-- tobii js -->
-        <script src="js/tobii.min.js "></script>
-        <!-- Parallax -->
-        <script src="js/parallax.js "></script>
-        <!-- Icons -->
-        <script src="js/feather.min.js"></script>
-        <!-- Main Js -->
-        <script src="js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
-        <script src="js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
-    </body>
+            <li class="list-inline-item ps-1 mb-0">
+                <a href="https://blog.gitdata.ai" target="_blank">
+                    <div class="btn btn-icon btn-pills btn-primary"><i data-feather="book-open" class="fea icon-sm"></i></div>
+                </a>
+            </li>
+        </ul>
+        <!--Login button End-->
+
+        <div id="navigation">
+            <!-- Navigation Menu-->
+            <ul class="navigation-menu">
+                <li><a href="index.html" class="sub-menu-item">Home</a></li>
+                <li><a href="#usecases" class="sub-menu-item">JiaoziFS</a></li>
+                <li><a href="#why" class="sub-menu-item">Why JiaoziFS</a></li>
+                <li><a href="#community" class="sub-menu-item">Community</a></li>
+                <li><a href="https://blog.gitdata.ai" target="_blank" class="sub-menu-item">Blog</a></li>
+            </ul><!--end navigation menu-->
+        </div><!--end navigation-->
+    </div><!--end container-->
+</header><!--end header-->
+<!-- Navbar End -->
+
+<!-- Head Start -->
+<section class="bg-half-170 border-bottom d-table w-100" id="home">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-7">
+                <div class="title-heading mt-4">
+                    <div class="alert alert-white alert-pills shadow" role="alert">
+                        <span class="badge rounded-pill bg-danger me-1">v0.1</span>
+                        <span class="content"> JiaoziFS is <span class="text-primary">Data Centric</span> in Action.</span>
+                    </div>
+                    <h3 class="mb-3">GitData AI Working Group <br> For <span class="text-primary" data-period="2000" >Data Centric<span class="wrap"></span> </span> Applications & Teams</h3>
+                    <p class="para-desc text-muted">JiaoziFS is an industry-leading Data-Centric Version Control File System, helps ensure Responsible AI Engineering by improving Data Versioning, Provenance, and Reproducibility. </p>
+                    <div class="mt-4">
+                        <a href="https://github.com/GitDataAI" target="_blank" class="btn btn-primary rounded"><i class="uil uil-github"></i> GetStarted</a>
+                        <a href="https://docs.google.com/document/d/1KLUW2-JK1jMrZUkNja_CSw-1rvb544ZkbklQALIbBLY/edit?usp=sharing" target="_blank" class="btn btn-outline-primary rounded"><i class="uil uil-book"></i> JiaoziFS Spec</a>
+                        <p class="mt-3 mb-0 text-muted">* The right image and video are copyrighted by https://landing.ai/data-centric-ai/.</p>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-6 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                <div class="position-relative">
+                    <img src="images/img_What_Is_Data-Centric_AI.png" class="rounded img-fluid mx-auto d-block" alt="">
+                    <div class="play-icon">
+                        <a href="#!" data-type="youtube" data-id="TU6u_T-s68Y" class="play-btn lightbox">
+                            <i class="mdi mdi-play text-primary rounded-circle bg-white shadow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- Head End -->
+
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <h4 class="title mb-4">A Universe of Uses of JiaoziFS</h4>
+                    <p class="text-muted para-desc mb-0 mx-auto"><span class="text-primary fw-bold">JiaoziFS</span>'s versatility shines across different industries – making it the multi-purpose tool for the data centric applications and teams.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row justify-content-center">
+            <div class="col-xl-10">
+                <div class="row">
+                    <div class="col-md-6 mt-4 pt-2">
+                        <div class="d-flex features feature-primary feature-clean p-4 bg-white shadow rounded">
+                            <div class="icons text-primary d-block text-center rounded">
+                                <i class="uil uil-cloud-database-tree d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="flex-1 content ms-4">
+                                <h5 class="mb-1"><a href="https://www.eckerson.com/articles/dataops-in-data-engineering" target="_blank" class="text-dark">Data Engineering & Data Pipelines</a></h5>
+                                <p class="text-muted mb-0">DataOps,AIOps,MLOps.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 mt-4 pt-2">
+                        <div class="d-flex features feature-primary feature-clean p-4 bg-white shadow rounded">
+                            <div class="icons text-primary d-block text-center rounded">
+                                <i class="uil uil-files-landscapes-alt d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="flex-1 content ms-4">
+                                <h5 class="mb-1"><a href="https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper18.pdf" target="_blank" class="text-dark">DataHub & Data Collaboration</a></h5>
+                                <p class="text-muted mb-0">Collaborative Data Science & Dataset Version Management at Scale.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 mt-4 pt-2">
+                        <div class="d-flex features feature-primary feature-clean p-4 bg-white shadow rounded">
+                            <div class="icons text-primary d-block text-center rounded">
+                                <i class="uil uil-database d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="flex-1 content ms-4">
+                                <h5 class="mb-1"><a href="https://www.isst.fraunhofer.de/en/business-units/data-business/projects/FAIRDataSpaces.html" class="text-dark">FAIR DataSpace</a></h5>
+                                <p class="text-muted mb-0">FAIR data are data which meet principles of findability, accessibility, interoperability, and reusability (FAIR).</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 mt-4 pt-2">
+                        <div class="d-flex features feature-primary feature-clean p-4 bg-white shadow rounded">
+                            <div class="icons text-primary d-block text-center rounded">
+                                <i class="uil uil-money-bill-stack d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="flex-1 content ms-4">
+                                <h5 class="mb-1"><a href="https://www.linkedin.com/pulse/nfts-business-enterprise-nft-kamlesh-nagware/" target="_blank" class="text-dark">Data NFT and Data Containerization</a></h5>
+                                <p class="text-muted mb-0">NFTs allow data to be containerized into shareable, tradeable, and trackable assets.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-12 mt-4 pt-2 text-center">
+                        <a href="https://github.com/jiaozifs/jiaozifs" target="_blank" class="text-primary h6">Explore How JiaoziFS works <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <h4 class="title mt-3 mb-4">Why JiaoziFS?</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">In production systems with machine learning components, <span class="text-primary fw-bold">updates and experiments are frequent.</span> New updates to models may be released every day or every few minutes, and different users may see the results of different models as part of A/B experiments or canary releases.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card border-0 text-center features feature-primary feature-clean rounded p-4">
+                    <div class="icons text-center mx-auto">
+                        <i class="uil uil-layers-alt d-block rounded h3 mb-0"></i>
+                    </div>
+
+                    <div class="card-body p-0 mt-4">
+                        <h5>Version Everthing</h5>
+                        <p class="text-muted mb-0">Data scientists are often criticized for being less disciplined with versioning their experiments(versioning of data, pipeline code, and models), especially when using computational notebooks.</p>
+                        <div class="mt-2">
+                            <a href="https://ckaestne.medium.com/versioning-provenance-and-reproducibility-in-production-machine-learning-355c48665005)" target="" class="read-more">Read More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card border-0 text-center features feature-primary feature-clean rounded p-4">
+                    <div class="icons text-center mx-auto">
+                        <i class="uil uil-edit d-block rounded h3 mb-0"></i>
+                    </div>
+
+                    <div class="card-body p-0 mt-4">
+                        <h5>Track Data Provenance</h5>
+                        <p class="text-muted mb-0">This applies to all processing steps in a machine learning pipeline, including data collection/acquisition, data merging, data cleaning, feature extraction, learning, or deployment. .</p>
+                        <div class="mt-2">
+                            <a href="https://ckaestne.medium.com/versioning-provenance-and-reproducibility-in-production-machine-learning-355c48665005" target="_blank" class="read-more">Read More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card border-0 text-center features feature-primary feature-clean rounded p-4">
+                    <div class="icons text-center mx-auto">
+                        <i class="uil uil-repeat d-block rounded h3 mb-0"></i>
+                    </div>
+
+                    <div class="card-body p-0 mt-4">
+                        <h5>Reproducibility</h5>
+                        <p class="text-muted mb-0">A final question that is often relevant for debugging, audits, and also science more broadly is to what degree data, models, and decisions can be reproduced.</p>
+                        <div class="mt-2">
+                            <a href="https://ckaestne.medium.com/versioning-provenance-and-reproducibility-in-production-machine-learning-355c48665005" target="_blank" class="read-more">Read More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="section-title mb-4 pb-2">
+                    <h4 class="title mb-4">Community <span class="text-primary">Members</span></h4>
+                    <p class="text-muted para-desc mx-auto mb-0">Bringing a community together is not only <span class="text-primary fw-bold">hugely rewarding</span>,but has tangible benefits for all involved.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset190.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset189.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset186.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset187.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+        </div><!--end row-->
+        <div class="row">
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset190.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset189.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset186.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset187.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+        </div><!--end row-->
+        <div class="row">
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset190.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset189.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset186.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center">
+                    <img src="images/illustrator/Asset187.svg" class="avatar avatar-small" alt="">
+                </div><!--end counter box-->
+            </div>
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End Members -->
+
+<!-- Footer Start -->
+<footer class="footer">
+    <div class="footer-py-30 footer-bar">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="text-sm-start">
+                        <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> GitData. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://gitdata.ai" target="_blank" class="text-reset">GitData</a>.</p>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </div>
+</footer><!--end footer-->
+<!-- Footer End -->
+
+<!-- Offcanvas Start -->
+<div class="offcanvas offcanvas-end bg-white shadow" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header p-4 border-bottom">
+        <h5 id="offcanvasRightLabel" class="mb-0">
+            <img src="images/logo-dark.png" height="24" class="light-version" alt="">
+            <img src="images/logo-light.png" height="24" class="dark-version" alt="">
+        </h5>
+        <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
+    </div>
+    <div class="offcanvas-body p-4">
+        <div class="row">
+            <div class="col-12">
+                <img src="images/contact.svg" class="img-fluid d-block mx-auto" style="max-width: 256px;" alt="">
+                <div class="card border-0 mt-5" style="z-index: 1">
+                    <div class="card-body p-0">
+                        <form method="post" name="myForm" onsubmit="return validateForm()">
+                            <p id="error-msg" class="mb-0"></p>
+                            <div id="simple-msg"></div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Name <span class="text-danger">*</span></label>
+                                        <div class="form-icon position-relative">
+                                            <i data-feather="user" class="fea icon-sm icons"></i>
+                                            <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Name :">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                        <div class="form-icon position-relative">
+                                            <i data-feather="mail" class="fea icon-sm icons"></i>
+                                            <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Email :">
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Subject</label>
+                                        <div class="form-icon position-relative">
+                                            <i data-feather="book" class="fea icon-sm icons"></i>
+                                            <input name="subject" id="subject" class="form-control ps-5" placeholder="subject :">
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Comments <span class="text-danger">*</span></label>
+                                        <div class="form-icon position-relative">
+                                            <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
+                                            <textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder="Message :"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-grid">
+                                        <button type="submit" id="submit" name="send" class="btn btn-primary">Send Message</button>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </form>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div>
+
+    <div class="offcanvas-footer p-4 border-top text-center">
+        <ul class="list-unstyled social-icon social mb-0">
+            <li class="list-inline-item mb-0"><a href="https://1.envato.market/landrick" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
+            <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
+            <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
+            <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
+            <li class="list-inline-item mb-0"><a href="https://twitter.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
+            <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+            <li class="list-inline-item mb-0"><a href="https://shreethemes.in" target="_blank" class="rounded"><i class="uil uil-globe align-middle" title="website"></i></a></li>
+        </ul><!--end icon-->
+    </div>
+</div>
+<!-- Offcanvas End -->
+
+<!-- Back to top -->
+<a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+<!-- Back to top -->
+
+<!-- javascript -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- tobii js -->
+<script src="js/tobii.min.js "></script>
+<!-- Parallax -->
+<script src="js/parallax.js "></script>
+<!-- Icons -->
+<script src="js/feather.min.js"></script>
+<!-- Main Js -->
+<script src="js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+<script src="js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+</body>
 </html>
