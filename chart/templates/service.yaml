@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: gitdata-ai-service
+  labels:
+    apptype: gitdata-ai
+spec:
+  type: ClusterIP
+  selector:
+    app: gitdata-ai
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80

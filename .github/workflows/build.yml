@@ -1,0 +1,38 @@
+name: test
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    if: ${{ startsWith(github.ref, 'refs/heads/deployment/') || github.ref == 'refs/heads/main'  }}
+    runs-on: [self-hosted]
+    steps:
+      - name: chceck code
+        uses: actions/checkout@v2
+      
+      - name: Get version
+        id: version
+        run: |
+          if [[ -n "$GITHUB_REF" && "$GITHUB_REF" == "refs/tags/"* ]]; then
+            echo "tag version"
+            echo "::set-output name=version::${GITHUB_REF/refs\/tags\//}"
+          else
+            echo "commit version"    
+            echo "::set-output name=version::${{ github.sha }}"
+          fi
+
+      - name: Build and push
+        run: |
+          docker login -u  ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
+          docker build -t gitdatateam/gitdata-ai:${{ steps.version.outputs.version }} . 
+          docker push gitdatateam/gitdata-ai:${{ steps.version.outputs.version }}
+
+          docker tag gitdatateam/gitdata-ai:${{ steps.version.outputs.version }} gitdatateam/gitdata-ai:latest
+          docker push gitdatateam/gitdata-ai:latest
+      
+      - name: Deploy
+        uses: WyriHaximus/github-action-helm3@v3
+        with:
+          exec: helm upgrade gitdata-ai --install ./chart --namespace website --set-string tag=latest
+          kubeconfig: ${{ secrets.KUBECONTENT }}
+          overrule_existing_kubeconfig: "true"
